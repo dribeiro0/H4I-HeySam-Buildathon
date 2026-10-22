@@ -2,8 +2,6 @@
 
 A dashboard concept for Hey Sam, the peer-to-peer text support line run by Samaritans. Built for the Hack4Impact BU Buildathon, September 2026.
 
-**[Open the live mockup →](https://dribeiro0.github.io/H4I-HeySam-Buildathon/)**
-
 ![Pulse overview](docs/screenshots/01-pulse.png)
 
 ## The problem
@@ -118,10 +116,7 @@ The first concept was called **Growth Control Tower**. It was built around one q
 
 ## Running it
 
-It's a single self-contained HTML file with no build step.
-
-- Open `index.html` in any browser, or
-- Use the live link at the top.
+It's a single self-contained HTML file with no build step. Download `index.html` and open it in any browser.
 
 ## Built with
 
