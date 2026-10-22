@@ -47,6 +47,14 @@ The mockup has five tabs.
 
 </details>
 
+## Early warnings
+
+Three signals most dashboards miss:
+
+- **News surges.** Separates news-driven demand from campaign lift. A surge gets more staff, never more ads.
+- **Awareness-to-connection lag.** Shows when a campaign's demand will actually arrive, so shifts are ready first.
+- **The peer flywheel.** Tracks volunteer recruiting next to demand, so capacity grows with reach.
+
 ## Privacy by design
 
 Texters are young people, sometimes in crisis. So privacy is built into the data pipeline, not added as a policy on top. Data is cut down to counts before it ever reaches the dashboard.
@@ -78,11 +86,35 @@ This is a design mockup, not a working product.
 
 ## If it were built for real
 
-The plan was to start with tools Samaritans already has, then grow.
+The pitch was "start Monday, with tools you already have."
 
-1. **Start with what they have.** A weekly Salesforce report plus GA4 and ad platform exports. Most of the value comes from just putting demand and capacity side by side.
-2. **Automate the pipeline.** Scheduled pulls that strip and count the data before storing it.
-3. **Add forecasting.** Turn on the planner once there's enough real history to fit the model.
+1. **First 30 days, $0.** One number, weekly. A Salesforce report, a free Looker Studio dashboard, and a 30-minute review.
+2. **Months 2–3.** Add the signals: news alerts, survey trends, volunteer check-ins and a weekly summary.
+3. **As capacity grows.** Plan ahead with the planning simulator, recruitment tracking and language matching.
+
+Owner: Hey Sam text operations, about 1–2 hours a week after setup.
+
+## Pitch deck
+
+The 10-slide deck we presented: [PDF](docs/pitch/HeySam-Connection-Pulse.pdf) · [PowerPoint](docs/pitch/HeySam-Connection-Pulse.pptx)
+
+| | |
+| --- | --- |
+| ![Title slide](docs/pitch/slides/slide-01.png) | ![The reframe](docs/pitch/slides/slide-02.png) |
+| ![Human capacity buffer](docs/pitch/slides/slide-05.png) | ![Planning simulator](docs/pitch/slides/slide-06.png) |
+
+![Feasibility](docs/pitch/slides/slide-09.png)
+
+## How it evolved
+
+The first concept was called **Growth Control Tower**. It was built around one question, "Can we grow right now?", with a safe-growth signal, news watch, campaign impact and a staffing unlock. We pitched it as **Connection Pulse**, and the final mockup is **Hey Sam Pulse**.
+
+<details>
+<summary>First concept: Growth Control Tower</summary>
+
+![Growth Control Tower concept](docs/concept/growth-control-tower.png)
+
+</details>
 
 ## Running it
 
@@ -93,11 +125,15 @@ It's a single self-contained HTML file with no build step.
 
 ## Built with
 
-The page was designed and built with Claude during the buildathon. It's bundled into one HTML file with no outside dependencies.
+The mockup and deck were designed and built with Claude during the buildathon. The mockup is bundled into one HTML file with no outside dependencies.
 
 ## Team
 
-Built by [David Ribeiro](https://github.com/dribeiro0) and team for the Hack4Impact BU Buildathon.
-<!-- Add teammates here: Name (GitHub link) -->
+Built for the Samaritans × Hack4Impact BU Buildathon by:
+
+- Yasmine Bridaa
+- [David Ribeiro](https://github.com/dribeiro0)
+- Andres Lopez
+- Shuyi Li
 
 Hey Sam and the Samaritans name belong to Samaritans. This project is not affiliated with or endorsed by them.
